@@ -1,0 +1,150 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.webdisign {
+      background: #F1FBFF;
+      height:auto;
+}
+.container{
+      overflow:hidden;
+}
+
+.main {
+      height: 630px;
+}
+
+.main .main_content {
+      margin-top: 8rem;
+}
+
+.ellipse {
+      width: 130px;
+      height: 130px;
+      box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+}
+
+.ellipse .ellipse_img {
+      width: 90%;
+      margin-top: 32px;
+      margin-left: 6px;
+}
+
+.main_bottom_img {
+      position: relative;
+      top: -13rem;
+      left: 38.7rem;
+}
+
+.position-absolute {
+      margin: 35px;
+}
+
+.main_box {
+      height: 50px;
+}
+
+.ellipse_main {
+      margin: 0;
+
+}
+
+.card {
+      width: 25%;
+}
+
+.card ul li i {
+      color: #32d74b;
+      margin: 10px;
+}
+
+.swiper {
+      height: 35%;
+}
+
+.swiper-slide {
+      font-size: 18px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+}
+
+.contact {
+      width: 75%;
+}
+
+.contact_items {
+      width: 75%;
+
+}
+
+.boxsFluid {
+      height: 465px;
+      overflow: hidden;
+}
+
+.submit {
+      width: 99%;
+      margin: 16px;
+}
+.submit .submit_unput{
+      width: 25%;
+}
+.reviews_circle{
+      height: 45px;
+      width: 45px;
+}
+li{
+      list-style: none;
+}
+.footer-logo{
+      width: 75%;
+}
+@media (max-width:768px) {
+      .main {
+            height: auto;
+      }
+
+      .main .main_content {
+            margin-top: 0rem;
+      }
+
+      .ellipse_main {
+            margin: 25px 27%;
+
+      }
+
+      .main_box {
+            height: auto;
+      }
+
+      .card {
+            width: 100%;
+      }
+
+      .contact {
+            width: 100%;
+      }
+
+      .contact_items {
+            width: 100%;
+      }
+
+      .boxsFluid {
+            height: auto;
+      }
+
+      .submit {
+            width: 100%;
+            margin: 0px;
+      }
+      .submit .submit_unput{
+            width: 100%;
+      }
+      .footer-logo{
+            width: 100%;
+      }
+}
